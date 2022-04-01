@@ -16,7 +16,7 @@ header {
     height: 30vh;
 }
 
-header > h1 {
+h1{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30pt;
