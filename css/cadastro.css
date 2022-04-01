@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(238, 236, 236);
+}
+
+body {
+    background-image: url('../imgs/fundo3.jpg');
+    background-position: cover;
+}
+
+main{
+    /*background: linear-gradient(90deg, rgb(10, 10, 10), rgb(27, 27, 27));*/
+    height: 100vh;
+    box-shadow: -1px -1px 8px black;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#box {
+    background-color: rgba(63, 131, 209, 0.336);
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+}
+
+
+div#box > h2 {
+    text-align: center;
+    color: black;
+    font-size: 20pt;
+    padding: 10px;
+    color: rgb(238, 236, 236);
+}
+
+input {
+    color: black;
+}
+
+input.dados {
+    padding: 5px;
+    margin: 2px;
+    width: 95%;
+    outline: none;
+}
+
+div#box > p {
+    color: black;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+label {
+    font-size: 15pt;
+}
+
+div#sexo {
+    
+    color: black;
+}
+
+p.titulos{
+    padding: 5px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+
+div#sexo > input.sex {
+    margin: 8px;
+}
+
+input#data {
+    color: black;
+    padding: 5px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    padding: 6px;
+    width: 98%;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(13, 28, 230), rgb(19, 84, 158));
+    color: white;
+}
+
+button:hover {
+    background: linear-gradient(to right, rgb(10, 22, 187), rgb(8, 34, 63));
+    color: white;
+}

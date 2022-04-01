@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="shortcut icon" href="imgs/icone4.png" type="image/x-icon">
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <div id="box">
+            <h2 id="cadastro">Cadastro</h2>
+            <div class="inp">
+                <input type="text" class="dados" placeholder="Nome"> <br>
+                <input type="email" class="dados" placeholder="Email"> <br>
+                <input type="password" class="dados" placeholder="Senha"> <br>
+                <input type="password" class="dados" placeholder="Confirmar Senha">
+
+                <div id="sexo">
+                    <p class="titulos" >Sexo:</p>
+                    <input type="radio" name="genero" id="mas" class="sex">
+                    <label for="mas">Masculino</label> <br>
+                    <input type="radio" name="genero" id="fem" class="sex">
+                    <label for="mas">Feminino</label>  <br>
+                    <input type="radio" name="genero" id="outro" class="sex">
+                    <label for="mas">Outro</label>  <br> <br>
+                </div>
+                
+                <p class="titulos">Data De Nascimento: <input type="date" id="data"></p>
+                <br>
+                <button>Enviar</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
