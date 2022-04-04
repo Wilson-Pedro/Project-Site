@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML e CSS</title>
+    <link rel="shortcut icon" href="imgs/icone/icone4.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/pagInicial.css">
+    <style>
+        main {
+            text-align: justify;
+        }
+
+        li {
+            padding: 3px;
+            margin-left: 20px;
+        } 
+
+        img {
+            display: block;
+            margin: auto;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        a{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="wamkTI">Wamk TI</h1>
+        <nav>
+            <a href="pagina-inicial.html">Página Inicial</a>
+            <a href="assunstos.html">Assuntos</a>
+            <a href="index.html" class="singOut">Sair</a>
+        </nav>
+    </header>
+    <main>
+        <ul>
+            <li>
+                <a href="#html">O que é HTML?</a>
+            </li>
+            <li>
+                <a href="#comoFunciona">Como Funciona o HTML ?</a>
+            </li>
+            <li>
+                <a href="#oqueSaoTags">O que são tags ?</a>
+            </li>
+            <li>
+                <a href="#principaisTags">Principais tags do HTML</a>
+            </li>
+            <li>
+                <a href="#estrutaDoHtml">Estrutura Básica do HTML</a>
+            </li>
+            <li>
+                <a href="#refrencias">Referências</a>
+            </li>
+        </ul>
+        <br>
+        <h2 id="html">O que é HTML ?</h2>
+        <br>
+        <p>
+            O HTML(HiperText Markup) é uma linguagem de marcação de hipertexto criado pelo britânico Tim Berners-Lee em 1991. O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos
+        </p>
+        <br>
+        <h2 id="comoFunciona">Como Funciona o HTML ?</h2>
+        <br>
+        <p>
+            O HTML trabalha lado a lado com os navegadores da internet e os sistemas de mecanismos de busca. Depois que o código de uma página está pronto, o navegador interpreta as informações e renderiza o site visualmente de acordo com as instruções. Assim, a pessoa que acessa consegue visualizar as informações, disponíveis em forma de texto, formas, imagens e outros recursos. O código de páginas são construídos através de tags HTML.
+        </p>
+        <br>
+        <h2 id="oqueSaoTags">O que são tags ?</h2>
+        <br>
+        <p>
+            As tags são códigos que definem toda a estrutura da página, tais como o seu tamanho, a fonte da letra, as cores, as quebras de linha e etc. A maioria dos elementos do documento HTML são compostos por uma estrutura de abertura e uma de fachamento, como <tag> e </tag>. Há também tags de estrutura única, como a  tag <br/> que realiza uma quebra de linha.
+        </p>
+        <br>
+        <h2 id="principaisTags">Principais tags do HTML</h2>
+        <br>
+        <p>
+            <ul>
+                <li>
+                    &lt;head&gt; – local para declarar todas informações, como título e metadados da sua página;
+                </li>
+                <li>
+                    &lt;title&gt; – define o título;
+                </li>
+                <li>
+                    &lt;body&gt; – local para declarar todos os elementos que irão compor o corpo da página;
+                </li>
+                <li>
+                    &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5 &gt;e  &lt;h6&gt; – Tags para definir um título e subtítulos, variando de 1 a 6, sendo h1 o título mais importante e h6 o de menor importância;
+                </li>
+                <li>
+                     &lt;p&gt; – Tag para definir um parágrafo.+;
+                </li>
+                <li> &lt;a&gt; – Tag de link, junto ao atributo href=”” é responsável pela principal característica da web;</li>
+                <li>
+                     &lt;header&gt; – define um cabeçalho;
+                </li>
+                <li>
+                     &lt;section&gt; – define uma seção;
+                </li>
+                <li>
+                     &lt;article&gt; – define um artigo;
+                </li>
+                <li>
+                     &lt;div&gt; – define uma divisão;
+                </li>
+                <li>
+                     &lt;footer&gt; – define um rodapé;
+                </li>
+                <li>
+                     &lt;nav&gt; – define uma área de navegação (como menus);
+                </li>
+                <li>
+                    &lt;table&gt; – define uma tabela;
+                </li>
+                <li>
+                    &lt;ol&gt; – define uma lista ordenada;
+                </li>
+                <li>
+                    &lt;ul&gt; – define uma lista não ordenada;
+                </li>
+                <li>
+                    &lt;li&gt; – define o item de uma lista;
+                </li>
+                <li>
+                    &lt;form&gt; – define um formulário;
+                </li>
+                <li>
+                    &lt;input&gt; – define os campos do formulário;
+                </li>
+                <li>
+                    &lt;textarea&gt; – define uma área para o usuário digitar um texto;
+
+                </li>
+                <li>
+                    &lt;button&gt; – define um botão;&</li>
+                <li>
+                    &lt;img&gt; – permite inserir uma imagem no seu documento.
+                </li>
+            </ul>
+        </p>
+        <br>
+        <h2 id="estrutaDoHtml">Estrutura Básica do HTML</h2>
+        <br>
+        <p>
+            O documento deve conter uma declaração informando o doctype, que no caso do HTML5, basta declarar com o elemento &lt;!DOCTYPE html&gt;. Após isso iniciamos nosso documento com a tag &lt;html&gt; que deverá ser fechada ao final do documento com &lt;/html&gt;. Posteriormente, nosso documento deverá ter um elemento &lt;head&gt; que receberá todas as informações básicas da sua página, como o título, links de elementos externos, metadados, etc. Declaramos então um título para página através da tag &lt;title&gt;. Finalmente abrimos então a tag &lt;body&gt; que consiste no corpo do nosso documento, onde ficarão todos os elementos que serão renderizados na tela do navegador.
+            <br>
+            <img src="imgs/estruturaHTML.jpg" alt="estruta básica do HTML">
+        </p>
+        <br>
+        <h2 id="refrencias">Referênias:</h2>
+        <br>
+        <p>
+            <a href="https://www.homehost.com.br/blog/tutoriais/o-que-e-html/#top02" target="_blank">Home Host</a>
+        </p>
+        <br>
+        <p>
+            <a href="https://blog.betrybe.com/html/#1" target="_blank">Blog.betrybe</a>
+        </p>
+    </main>
+</body>
+</html>

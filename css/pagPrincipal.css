@@ -46,7 +46,7 @@ body {
 
 section#fundo1{
     height: 100vh;
-    background-image: url('../imgs/fundo4.jpg');
+    background-image: url('../imgs/index/fundo4.jpg');
     background-size: cover;
     background-position: center center;
     

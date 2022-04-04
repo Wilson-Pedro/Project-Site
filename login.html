@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/wamk.css">
+    <link rel="shoutcut icon" href="imgs/icone/icone4.png">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url("imgs/login/fundo9.png");
+            background-size: cover;
+        }
+
+        form{
+            width: 400px;
+            height: 450px;
+            background-color: rgba(212, 228, 228, 0.123);
+            display: flex;
+            flex-direction: column;
+            padding: 20px 40px;
+            border-radius: 6px;
+            
+        }
+
+        form h2{
+            text-align: center;
+            margin-bottom: 15px;
+            color:blue;
+            font-size: 30px;
+        }
+
+        input{
+            margin-bottom: 12px;
+            height: 40px;
+            padding-left: 10px;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            outline: none;
+        }   
+        
+        .bem-vindo{
+            font-size: 30px;
+            color: rgb(234, 239, 241);
+            margin-bottom: 16px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        img{
+            display: block;
+            margin: auto;
+
+        }
+        button{
+            padding:10px;
+            border-style: none;
+            width: 250px;
+            border-radius: 20px;
+            margin: auto;
+            cursor: pointer;
+            background: linear-gradient(to right,rgb(191, 199, 216),rgb(146, 166, 223))  ;
+        }
+
+        a {
+            color: rgb(27, 27, 27);
+            text-decoration: none;
+        }
+
+        button:hover{
+            color: white;
+            background: linear-gradient(to right,rgb(146, 152, 165),rgb(87, 100, 134))  ;
+        }
+        
+    </style>
+</head>
+<body>
+    <form> 
+        <img class="teste1" src="imgs/login/MicrosoftTeams-image.png" alt="user login"width="150">
+        <div class=" bem-vindo">Bem-vindo</div>
+        <input type= "text" name="email"placeholder="E-mail">
+        <input type="password" name ="senha" placeholder="Senha">
+        <button><a href="pagina-inicial.html">Login</a></button>
+    </form>
+</body>
+</html>
