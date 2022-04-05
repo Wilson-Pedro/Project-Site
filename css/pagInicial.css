@@ -13,7 +13,7 @@ header {
     max-width: 100vw;
     background: linear-gradient(to bottom, rgb(13, 105, 190), rgb(79, 168, 250));
     height: 30vh;
-    width: 100vw;
+    min-width: 97vw;
 }
 
 .wamkTI{
