@@ -13,12 +13,6 @@ body {
 }
 
 main{
-    /*background: linear-gradient(90deg, rgb(10, 10, 10), rgb(27, 27, 27));*/
-    height: 100vh;
-    box-shadow: -1px -1px 8px black;
-}
-
-main{
     height: 100vh;
     display: flex;
     align-items: center;
@@ -30,7 +24,6 @@ div#box {
     color: black;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 1px 1px 1px black;
 }
 
 
@@ -68,7 +61,13 @@ div#sexo {
     color: black;
 }
 
-p.titulos{
+p.sex {
+    padding: 5px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+p.date{
     padding: 5px;
     font-size: 15pt;
     font-weight: bold;
@@ -81,24 +80,44 @@ div#sexo > input.sex {
 
 input#data {
     color: black;
-    padding: 5px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
 }
 
-button {
+p.cadastrar {
+    text-align: center;
+    background: linear-gradient(to right, rgb(0, 47, 177), rgb(20, 85, 160));
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14pt;
+}
+
+p.cadastrar:hover {
+    background: linear-gradient(to right, rgb(1, 32, 116), rgb(16, 66, 122));
+    color: white;
+}
+
+a.btnCadastrar{
+    text-decoration: none;
+}
+
+input#limpar {
     display: block;
     margin: auto;
-    margin-top: 5px;
-    padding: 6px;
-    width: 98%;
-    outline: none;
-    border: 0;
-    border-radius: 3px;
-    cursor: pointer;
-    background: linear-gradient(to right, rgb(13, 28, 230), rgb(19, 84, 158));
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 99%;
+    background: linear-gradient(to right, rgb(0, 47, 177), rgb(20, 85, 160));
     color: white;
+    font-size: 14pt;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
-button:hover {
-    background: linear-gradient(to right, rgb(10, 22, 187), rgb(8, 34, 63));
-    color: white;
+input#limpar:hover {
+    background: linear-gradient(to right, rgb(1, 32, 116), rgb(16, 66, 122));
 }

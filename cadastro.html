@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,29 +10,37 @@
 </head>
 <body>
     <main>
-        <div id="box">
-            <h2 id="cadastro">Cadastro</h2>
-            <div class="inp">
-                <input type="text" class="dados" placeholder="Nome"> <br>
-                <input type="email" class="dados" placeholder="Email"> <br>
-                <input type="password" class="dados" placeholder="Senha"> <br>
-                <input type="password" class="dados" placeholder="Confirmar Senha">
-
-                <div id="sexo">
-                    <p class="titulos" >Sexo:</p>
-                    <input type="radio" name="genero" id="mas" class="sex">
-                    <label for="mas">Masculino</label> <br>
-                    <input type="radio" name="genero" id="fem" class="sex">
-                    <label for="mas">Feminino</label>  <br>
-                    <input type="radio" name="genero" id="outro" class="sex">
-                    <label for="mas">Outro</label>  <br> <br>
+        <form action="">
+            <div id="box">
+                <h2 id="cadastro">Cadastro</h2>
+                <div class="inp">
+                    <input type="text" class="dados" placeholder="Nome"> <br>
+                    <input type="email" class="dados" placeholder="Email"> <br>
+                    <input type="password" class="dados" placeholder="Senha"> <br>
+                    <input type="password" class="dados" placeholder="Confirmar Senha">
+                    <div id="sexo">
+                        <p class="sex" >Sexo:</p>
+                        <input type="radio" name="genero" id="mas" class="sex">
+                        <label for="mas">Masculino</label> <br>
+                        <input type="radio" name="genero" id="fem" class="sex">
+                        <label for="mas">Feminino</label>  <br>
+                        <input type="radio" name="genero" id="outro" class="sex">
+                        <label for="mas">Outro</label>  <br> <br>
+                    </div>
+            
+                    <p class="date">Data De Nascimento: <input type="date" id="data" min="1922-01-01" max="2022-12-31"></p>
+                    <br>
+                    <div>
+                        <a class="btnCadastrar" href="pagina-inicial.html">
+                            <p class="cadastrar">Cadastrar</p>
+                        </a>
+                    </div>
+                    <div>
+                        <input id="limpar" type="reset" value="Limpar">
+                    </div>
                 </div>
-                
-                <p class="titulos">Data De Nascimento: <input type="date" id="data"></p>
-                <br>
-                <button>Enviar</button>
             </div>
-        </div>
+        </form>
     </main>
 </body>
 </html>
