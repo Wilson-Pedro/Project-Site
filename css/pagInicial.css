@@ -25,6 +25,11 @@ header {
     cursor: pointer;
 }
 
+#wamk {
+    text-decoration: none;
+    color: white;
+}
+
 nav {
     margin-top: 14.8vh;
     padding: 10px;
@@ -56,5 +61,6 @@ nav > a:hover{
 
 main {
     padding: 20px;
-    width: 90vw;
+    width: 91vw;
+    margin: auto;
 }
