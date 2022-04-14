@@ -68,3 +68,7 @@ main {
 p {
     line-height: 2em;
 }
+
+p, h2, h3 {
+    margin-top: 1rem;
+}
