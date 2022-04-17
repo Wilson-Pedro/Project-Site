@@ -1,0 +1,400 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/pagInicial.css">
+    <link rel="shortcut icon" href="../../imgs/icone/icone4.png" type="image/x-icon">
+    <title>Engenharia de Software</title>
+    <style>
+        li{
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        ul {
+            margin-left: 10px;   
+        }
+
+        a{
+            color: blue;
+        }
+
+        a.top{
+            color: blue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="wamkTI">Wamk TI</h1>
+        <nav>
+            <a href="../pagina-inicial.html">Página Inicial</a>
+            <a href="../assunstos.html">Assuntos</a>
+            <a href="../index.html" class="singOut">Sair</a>
+        </nav>
+    </header>
+
+    <main>
+        <ul>
+            <li>
+                <a href="#um">O que é um Software?</a>
+            </li>
+            <li>
+                <a href="#dois" >Tipos de software</a>
+            </li>
+            <li>
+                <a href="#tres" >Processo de software:</a>
+            </li>
+            <li>
+                <a href="#quatro" >Sistema legado do Software:</a>
+            </li>
+            <li>
+                <a href="#cinco" >Custos de Software: </a>
+            </li>
+            <li>
+                <a href="#seis" >Mas o que é Engenharia de Software? </a>
+            </li>
+            <li>
+                <a href="#sete" >Mitos do Software: </a>
+            </li>
+            <li>
+                <a href="#oito" >Atributos para um bom software: </a>
+            </li>
+            <li>
+                <a href="#nove" >Categorias do processo de software: </a>
+            </li>
+            <li>
+                <a href="#dez" >Validação de requisito </a>
+            </li>
+            <li>
+                <a href="#onze" >Software e seus testes </a>
+            </li>
+            <li>
+                <a href="#doze" >Tipos de testes </a>
+            </li>
+            <li>
+                <a href="#referencias" >Referências</a>
+            </li>
+        </ul>
+        <h2 id="um">O que é um Software?
+            <span class="subir">
+                <a class="top" href="#top">[Subir]</a>
+            </span>
+        </h2>
+        <p>Software é uma sequência de instruções escritas para serem interpretadas por um computador com o objetivo de executar tarefas específica. Para explicar melhor, todo programa que esta sendo rodado em seu computador,celular dispositivel que permite executar suas funções, é o Software encarregado por fazer a interface entre usuário e hardware, sem código binário ou linguagem de máquina. </p>
+        <p>O termo inglês "software" foi usado pela primeira vez em 1958 em um artigo escrito pelo cientista americano John Wilder Tukey. Foi também ele o responsável por introduzir o termo "bit" para designar "dígito binário".</p>
+        <p>Um dos primeiros relatos de um software desenvolvido foi registrado no século XIX. Ada Lovelace, conhecida como a primeira programadora, escreveu um algoritmo que fazia com que a Máquina Analítica fosse capaz de calcular uma sequência conhecida como Números de Bernoulli.</p>
+        <img src="../../imgs/assuntos/engenharia/softwares.png" width="500">
+
+        <h2 id="dois">Tipos de software
+            <span class="subir">
+                <a class="top" href="#top">[Subir]</a>
+            </span>
+        </h2>
+        
+            <h3>Software de sistema:</h3>
+        
+         <p>É o software projetado para fornecer uma plataforma para outro software. Exemplos de software de sistema incluem sistemas operacionais como macOS, Ubuntu (uma distribuição Linux) e Microsoft Windows, software de computação científica, mecanismos de jogos, automação industrial e aplicativos de software como serviço. Em contraste com o software de sistema, softwares que permitem aos usuários realizar tarefas orientadas ao usuário, como criar documentos de texto, jogar jogos de computador, ouvir música ou navegar na Web, são coletivamente chamados de software aplicativo.</p>
+        
+         <img src="../../imgs/assuntos/engenharia/sistemas.jpg" width="400" >
+
+         <h3>Software de programação:</h3>
+        
+        <p>São as ferramentas usadas pelo programador para desenvolver novos softwares e programas. Usam diferentes          linguagens de programação (C, Java, Python, Swift, etc.) e abrigam compiladores, intérpretes e depuradores, por exemplo.Os editores de texto, embora sejam softwares de aplicação também são softwares de programação, pois podem ser usados para escrever código.</p> 
+        
+        <img src="../../imgs/assuntos/engenharia/prog.jpg" width="400" >
+        <h3>Software aplicativo:</h3>
+        
+        <p> Um software aplicativo é um tipo de software concebido para desempenhar tarefas práticas ao usuário para que este possa concretizar determinados trabalhos. Esta característica distingue-o de outros tipos de programas, como os sistemas operativos (que são os que fazem funcionar o computador), as linguagens de programação (que permitem criar os programas informáticos em geral) e os utilitários (que realizam tarefas de manutenção ou de uso general).</p>
+        
+        <p>Um software aplicativo trabalha com a execução ordenada de tarefas a fim de coletar dados e fazer a organização de informações, em outras palavras, o processamento de dados.
+        </p> 
+        
+        <p> Algumas das funções dos softwares aplicativos são realizar cálculos, organizar e executar tarefas, processar informações, entre outros.</p>
+        
+         <img src="../../imgs/assuntos/engenharia/cell.jpg" width="500" >
+
+         <h2 id="tres">Processo de software:
+            <span class="subir">
+                <a class="top" href="#top">[Subir]</a>
+            </span>
+        </h2>
+
+        <ul>
+            <li>É um conjunto de atividades relacionadas que levam à produção de um produto de software,seja ele desenvolvido do zero, ou extensão de sistemas já existentes.</li>
+            <li>As atividades genéricas em todos os processos de software são:</li>
+            <li>Especificação – o que o sistema deve fazer e suas restrições de desenvolvimento.</li>
+        
+            <li>Desenvolvimento – produção do sistema de software.</li>
+            <li>Validação – verificação de que o software é o que o cliente deseja.</li>
+            <li>Evolução – mudança do software em resposta às demandas de mudança.</li>
+        </ul>
+         <br>
+        <img src="../../imgs/assuntos/engenharia/processo.jpg"width=500>
+         
+        <h2 id="quatro">Sistema legado do Software:
+            <span class="subir">
+                <a class="top" href="#top">[Subir]</a>
+            </span>
+        </h2>
+
+         <p>São sistemas muito antigos, desenvolvidos em plataformas ultrapassadas e muitas vezes em linguagens “mortas; Foram desenvolvidos em uma época em que não existem nenhuma metodologia de desenvolvimento; São modificados continuamente para satisfazer mudanças nos requisitos do negócio e nas plataformas de
+            computação;
+             Muitos sistemas legados são mantidos e continuam sendo importantes para suas organizações, apesar de ser uma
+            grande dor de cabeça para as mesmas;
+            Não significa que sistemas legados são antigos, podem apenas executar em cima de plataformas ultrapassadas</p>
+            <img src="../../imgs/assuntos/engenharia/legado.jpg" width="600">
+
+            <h2 id="cinco">Custos de Software:
+                <span class="subir">
+                    <a class="top" href="#top">[Subir]</a>
+                </span>
+            </h2>
+        
+            <ul>
+               <li>Os custos de software dominam os custos de sistemas computacionais. Em um PC, os custos de software são frequentemente maiores que o custo do
+                hardware;</li>
+                <li> Manter um software custa mais que desenvolvê-lo. Para sistemas com uma
+                    longa vida, os custos de manutenção podem ser muito maiores que os
+                    custos de desenvolvimento;</li>
+                    <li>A engenharia de software dedica-se ao desenvolvimento de software com
+                        custos adequados.</li>
+             </ul>
+
+             <h2 id="seis">Mas o que é Engenharia de Software?
+                <span class="subir">
+                    <a class="top" href="#top">[Subir]</a>
+                </span>
+            </h2>
+             
+             <p>É um conjunto de processos, métados, técnicos e ferramentas que ajudam a produzir software com maior qualidade e com menor custo. Além de incluir o processo de desenvolvimento e atividades de gerenciamento de projetos</p>
+             <p> um engenheiro de software ao desenvolver e gerenciar softwares, além das demais atividades desempenhadas por ele, pode oferecer alguns benefícios imprescindíveis para a sociedade.></p>
+             <p>Um engenheiro de software deve acompanhar os avanços tecnológicos. Na verdade, cabe a ele estar atento às novidades tecnológicas, buscar novos métodos para desenvolver e gerenciar sistemas e aplicativos da melhor forma. E isso, com certeza, não é tarefa fácil.</p>
+
+             <h2 id="sete">Mitos do Software:
+                <span class="subir">
+                    <a class="top" href="#top">[Subir]</a>
+                </span>
+            </h2>
+            <h3>Mitos da Gerência : </h3>
+                <ul>
+                    <li>Meu pessoal tem ferramentas de desenvolvimeto de software de ultima geração; afinal de contas lhes compramos os mais novos computadores.</li>
+                    <li>
+                        Se nós estamos atrasados  nos prazos , podemos adicionar mais programodores e tirar o atrosos?
+                    </li>
+                </ul>
+                
+                <h3>Mitos dos clientes: </h3>
+
+                    <ul>
+                        <li>Uma declaração geral dos objetivos é suficiente para se começar a escrever programas – podemos preencher os detalhes mais tarde</li>
+                        <li>Os requisitos de projeto modificam-se continuamente, mas as mudanças podem ser facilmente acomodadas, porque o software é flexível</li>
+                        <li>Assim que escrevermos o programa e colocarmos em funcionamento, nosso trabalho estará completo;</li>
+                        <li> Mitos do profissional</li>
+                        <li>Enquanto não tiver o programa “funcionando”, eu não terei realmente nenhuma maneira de avaliar sua qualidade</li>
+                        <li>A única coisa a ser entregue em um projeto bem-sucedido é o programa funcionando; </li>
+                        <li>A engenharia de software vai nos fazer criar documentação volumosa e desnecessária que certamente nos atrasará.</li>
+                        <li>O software deve fornecer a funcionalidade e o desempenho requeridos para o usuário e deve ser manutenível, confiável e aceitável:</li>
+                    </ul>
+        
+                <h2 id="oito">Atributos para um bom software:
+                    <span class="subir">
+                        <a class="top" href="#top">[Subir]</a>
+                    </span>
+                </h2>
+        
+               <ul>
+                   <li>Flexibilidade :Um bom software corporativo precisa ser flexível, ou seja, deve ser capaz de lidar com diferentes tipos de necessidades.</li>
+        
+                   <li> Usabilidade:O software precisa ser de fácil utilização, principalmente porque a grande maioria dos usuários não entende de linguagem de programação.</li>
+                   <li>Eficiência:Um nível de desempenho mínimo e máximo para o software devem ser delimitados no início do projeto. Assim, é possível mapear o comportamento da solução em relação aos recursos que vai utilizar e ao tempo de resposta para o processamento. Tudo deve ser compatível com o nível que foi requerido para o produto.</li>
+                   <li>Manutenibilidade:A facilidade com que as correções podem ser implementadas também diz muito sobre a qualidade do software. Isso porque permite atualizações rápidas e pouco onerosas, evitadas pelos usuários que temem pela integridade das informações que já foram armazenadas no banco de dados.</li>
+                </ul>
+
+                <h2 id="nove">Categorias do processo de software:
+                    <span class="subir">
+                        <a class="top" href="#top">[Subir]</a>
+                    </span>
+                </h2>
+
+                <p>Processos dirigidos: onde todas as atividades são planejadas com antecedência, e o progresso é avaliado por comparação com o planejamento inicial.</p>
+                <p>Processos ágeis: o planejamento é gradativo, e é mais fácil alterar o processo de maneira a refletir as necessidades de mudança dos clientes.</p>
+
+                <h3>Requisitos do software:</h3>
+                <p>Um requisito é a propriedade que um software exibe para solucionar problemas reais, é a conjuntura indispensável para satisfazer um objeto. Quando se trata de um software sob demanda, por exemplo, um requisito é uma maneira pelo qual o sistema oferecido deve fazer, ou um condicionamento no desenvolvimento do sistema.</p>
+        
+                <p>Segundo Sommervile, os requisitos de um sistema são as descrições do que
+                o sistema deve fazer, os serviços que oferece e as restrições a seu
+                funcionamento. O que um sistema deve fazer são requisitos funcionais.E as restrições são requisitos não-funcionais, como desempenho,
+                usabilidade, segurança, disponibilidade, etc.</p>
+                
+                <h3>Requisitos funcionais</h3>
+                
+                <p>um requisito funcional define uma função de um sistema de software ou seu componente. O requisito funcional representa o que o software faz, em termos de tarefas e serviços. Uma função é descrita como um conjunto de entradas, seu comportamento e as saídas. Os requisitos funcionais podem ser cálculos, detalhes técnicos, manipulação de dados e de processamento e outras funcionalidades específicas que definem o que um sistema, idealmente, será capaz de realizar. Requisitos comportamentais, que descrevem todos os casos em que o sistema utiliza os requisitos funcionais, são extraídos dos casos de uso.</p>
+
+                    <img src="../../imgs/assuntos/engenharia/requisitos.jpg" width="500">
+
+                <h3>Requisitos não funcionais</h3>
+
+                <p>Os requisitos não funcionais são aqueles que não interferem diretamente no desenvolvimento do sistema propriamente dito, ou seja, não é um requisito que tem regras de negócios e, portanto, é necessário para determinar o que será feito no software. Em vez disso, os RNFs são requisitos que estabelecem como o sistema se comportará em determinadas situações.</p>
+    
+                <p> Segundo Sommervile, esses são os requisitos que não estão diretamente
+                    relacionados com os serviços oferecidos pelo sistema a seus usuários, mas as:
+                    </p>
+                    <ul>
+                        <li> Propriedades emergentes do sistema, como confiabilidade, tempo de resposta e
+                            uso de memória.
+                            <li> Restrições, como as capacidades dos dispositivos de E/S ou as representações de
+                            dados usadas nas interfaces com outros sistemas</li>
+                    </ul>
+           <img src="../../imgs/assuntos/engenharia/requisitos-n-o-funcionais-l.jpg" width="600">
+            
+           <h2 id="dez">Validação de  requisito
+            <span class="subir">
+                <a class="top" href="#top">[Subir]</a>
+            </span>
+            </h2>
+        
+           <p>A validação de software é um processo que comprova documentalmente que o sistema cumpre com as funções das quais foi designado, em conformidade com as especificações dos requisitos do usuário e com a garantia de segurança e rastreabilidade de informações.</p>
+        
+           <ul>
+           <li>A validação de requisitos é
+            "o processo pelo qual se verifica se os requisitos
+            definem o sistema que o cliente realmente quer".</li>
+            <li> A importância da validação é devido aos altos
+                custos de retrabalho quando é encontrado erros
+                de requisitos nas fases mais avançadas de
+                desenvolvimento.</li>
+           </ul>
+        <img src="../../imgs/assuntos/engenharia/verificao-validao-e-teste-de-software-6-728.webp" width="600">
+        
+        
+           <h3>Gerenciamento de requisitos do software</h3>
+        
+           <p>O gerenciamento de requisitos de software é uma atividade que exige
+        uma atenção especial no processo de gerenciamento de um processo de
+        desenvolvimento de software ou sistema de software. Com isso, fica claro nas
+        afirmações feitas por vários autores das áreas de engenharia de requisitos e
+        engenharia de software. Baseado nesta importância do gerenciamento dos
+        requisitos Machado (2011), diz que a gerência de requisitos inclui a
+        documentação de dependências entre os requisitos, o controle de mudanças
+        sobre as identificações e correção de inconsistências entre o requisito e os
+        artefatos do projeto.Podendo considerar três
+        tarefas básicas:</p>
+        <ul>
+            <li> Identificação e armazenamento de requisitos</li>
+            <li> Gerenciamento de mudanças</li>
+            <li> Gerenciamento de rastreabilidade</li>
+        </ul>
+        <h3>Validação e Verificação (V&V)</h3>
+        <ul>
+            <li> Verificação: Assegurar consistência, completitude e corretude do produto
+                em cada fase do ciclo de vida do software. Estamos construindo o
+                produto da maneira certa?</li>
+                <li>Validação: Assegurar que o produto final corresponda aos requisitos do
+                    usuário. Estamos construindo o produto certo?</li>
+        </ul>
+        <ul>
+            <li>Nessa etapa, são incluídas atividades como: </li>
+            <li>Testes de software; </li>
+            <li>Revisões técnicas formais;</li>
+            <li> Auditoria de qualidade e configuração;</li>
+            <li>Monitoramento de desempenho; </li>
+            <li>Simulação;</li>
+            <li>Revisão da documentação;</li>
+            <li> Revisão da base de dados;</li>
+            <li>Análise de algoritmos e;</li>
+            <li>Teste de usabilidade</li>
+        </ul>
+
+        <h2 id="onze">Software e seus testes
+            <span class="subir">
+                <a class="top" href="#top">[Subir]</a>
+            </span>
+        </h2>
+
+        <p>Um software falha quando ele não esta de acordo com o esperado pelo
+            usuário.Os defeitos normalmente são introduzidos na transformação de informações
+            entre as diferentes fases do ciclo de desenvolvimento de um software.</p>
+            <ul>
+                <li> Defeito (fault) – passo, processo ou definição de dados
+                    incorreto, como por exemplo, uma instrução ou comando
+                    incorreto;</li>
+                    <li> Erro (error) – diferença entre o valor obtido e o valor
+                        esperado, ou seja, qualquer estado intermediário incorreto ou
+                        resultado inesperado na execução do programa constitui um
+                        erro;</li>
+                        <li> Falha (failure) – produção de uma saída incorreta com
+                            relação á especificação</li>
+            </ul>
+
+            <h2 id="doze">Tipos de testes
+                <span class="subir">
+                    <a class="top" href="#top">[Subir]</a>
+                </span>
+            </h2>
+        
+            <ul>
+                <li> Os testes podem ser classificados de distintas maneiras, de acordo com a
+                    literatura utilizada considera-se três estágios de teste:</li>
+                    <li>Testes em desenvolvimento;</li>
+                    <li>Testes de release;</li>
+                    <li>Testes de usuário.</li>
+            </ul>
+        
+            <h3> Teste de Desenvolvimento</h3>
+            <p> Incluem todas as atividades de testes que são realizadas pela equipe de
+                desenvolvimento do sistema com o objetivo de descobrir falhas e defeitos.</p>
+                <p>Sommervile descreve três níveis de granularidade durante o desenvolvimento:</p>
+                <ul>
+                    <li> Teste unitário;</li>
+                    <li>Teste de componente (ou integração)</li>
+                    <li>Teste de sistema.</li>
+                </ul>
+                <h3>Teste de Release</h3>
+                <p>Sommervile destaca tambem duas diferenças
+                    importantes entre o teste de release e o teste de
+                    sistema:
+                    O teste de release deveria ser realizado por uma
+                    equipe externa ao desenvolvimento do sistema.
+                    Enquanto os testes de sistema buscam encontrar
+                    bugs no sistema, o teste de release verifica se o
+                    sistema atende a seus requisitos e se é aceito pelo
+                    cliente ou usuário (teste de validação).</p>
+                    <p> Sommervile destaca três tipos de
+                        testes de release:</p>
+                        <ul>
+                            <li>Testes baseados em
+                                requisitos;</li>
+                                <li>Testes de cenário;</li>
+                                <li>Testes de desempenho.</li>
+                        </ul>
+        
+                        <h3>Testes de Usuário</h3>
+                        <p>Segundo Sommervile, teste de usuário ou de cliente é um estágio onde
+                            usuários ou clientes fornecem entradas e conselhos sobre o teste de
+                            sistema. Esse tipo de teste é essencial, pois as influências do ambiente de
+                            trabalho do usuário têm um efeito importante sobre a confiabilidade, o
+                            desempenho, a usabilidade e a robustez de um sistema.</p>
+                            <p>Sommervile apresenta três tipos de testes
+                                de usuário:</p>
+                            <ul>
+                                <li>Teste alfa;</li>
+                                <li>Teste beta;</li>
+                                <li>Teste de aceitação.</li>
+                            </ul>
+        
+        <h2 id="referencias">Referencias
+            <span class="subir">
+                <a class="top" href="#top">[Subir]</a>
+            </span>
+        </h2>
+
+        <a href="http://www.gestaouniversitaria.com.br/system/scientific_articles/files/000/000/105/original/O_GERENCIAMENTO_DE_REQUISITOS_E_A_SUA_IMPORT%C3%82NCIA_EM_PROJETOS_DE_DESENVOLVIMENTO_DE_SOFTWARE.pdf?1444586543#:~:text=O%20gerenciamento%20de%20requisitos%20de%20software%20%C3%A9%20uma,de%20desenvolvimento%20de%20software%20ou%20sistema%20de%20software." target="_blank"> <p>GERENCIAMENTO DE REQUISITOS</p></a>
+        <a href="https://www.significados.com.br/software/" target="_blank"><p>O que é software?</p></a>
+    </main>
+
+</body>
+</html>
