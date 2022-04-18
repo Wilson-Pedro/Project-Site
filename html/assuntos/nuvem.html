@@ -41,6 +41,24 @@
             text-decoration: none;
         }
 
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 7px;
+            text-align: center;
+        }
+
+        td {
+            text-align: justify;
+        }
+
+        th.azul {
+            background-color: rgb(123, 160, 240);
+        }
+
 
     </style>
 </head>
@@ -159,6 +177,32 @@
         <p>
             A SaaS é a sigla para “Software as a Service” e significa que é possível acessar um serviço na web que é gerenciado por terceiros e que utiliza uma interface totalmente criada no lado do cliente.
         </p>
+        <h2>Tipos de nuvem</h2>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th class="azul">Tipo de implantação</th>
+                    <th class="azul">Descrição</th>
+                    <th class="azul">Provável Risco</th>
+                </tr>
+                <tr>
+                    <th>Nuvem Pública</th>
+                    <td>Com a nuvem pública, os serviços entregues aos clientes por meio de uma rede aberta para o uso público.</td>
+                    <td>Dificuldade para avaliar, implementar e gerenciar os controles de acesso.</td>
+                </tr>
+                <tr>
+                    <th>Nuvem Privada</th>
+                    <td>A nuvem privada oforece mais segurança e controle porque os serviços são mantidoss em uma rede privada protegida por firewall</td>
+                    <td>Os controles de acesso são mais fáceis de serem gerenciados e controlados</td>
+                </tr>
+                <tr>
+                    <th>Nuvem Híbrida</th>
+                    <td>Na nuvem híbrida temos uma composição dos modelos de nuvens públicas e privadas, oferecendo maior diversidade.</td>
+                    <td>Os riscos relacionados a gestão do controle de acesso varia de acordo com o escopo da tecnologia aplicado.</td>
+                </tr>
+            </thead>
+        </table>
         <h2 id="referencias">Referências</h2>
         <p>
             <a href="https://www.datarain.com.br/blog/tecnologia-e-inovacao/o-que-e-computacao-em-nuvem/" target="_blank">dataRain</a>

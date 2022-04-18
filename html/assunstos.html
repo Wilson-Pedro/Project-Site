@@ -8,6 +8,11 @@
     <link rel="shortcut icon" href="../imgs/icone/icone4.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/pagInicial.css">
     <style>
+        input#pesquisar {
+            outline: none;
+            padding: 2px;
+        }
+
         li{
             padding: 5px;
         }
@@ -19,6 +24,8 @@
         a {
             color: blue;
         }
+
+
     </style>
 </head>
 <body>
@@ -31,6 +38,20 @@
         </nav>
     </header>
     <main>
+        <input type="search" name="" id="pesquisar" list="tabelaPesquisa"
+            placeholder="Pesquisar assunto...">
+        <datalist id="tabelaPesquisa">
+            <option value="HTML"></option>
+
+            <option value="Computação em Nuvem"></option>
+
+            <option value="Arquitetura de software"></option>
+
+            <option value="Engenharia de Software"></option>
+
+            <option value="Indrodução a Segurança da Informação"></option>
+        </datalist>
+        <br>
         <h2>Assuntos</h2>
         <br>
         <ul>
