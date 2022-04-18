@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/pagInicial.css">
+    <link rel="shortcut icon" href="../../imgs/icone/icone4.png" type="image/x-icon">
+    <title>Document</title>
+    <style>
+        main {
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        li {
+            padding: 3px;
+            margin-left: 20px;
+        } 
+
+        span.subir {
+            font-size: 17pt;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        a{
+            color: blue;
+        }
+
+        a.top{
+            color: blue;
+            text-decoration: none;
+        } 
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="top" class="wamkTI"><a id="wamk" href="../../html/pagina-inicial.html">Wamk TI</a></h1>
+        <nav>
+            <a href="../pagina-inicial.html">Página Inicial</a>
+            <a href="../assunstos.html">Assuntos</a>
+            <a href="../index.html" class="singOut">Sair</a>
+        </nav>
+    </header>
+    <main>
+        <ul>
+            <li>
+                <a href="#um">O que é arquitetura de software?</a>
+            </li>
+            <li>
+                <a href="#dois">O surgimento da arquitetura de software.</a>
+            </li>
+            <li>
+                <a href="#tres">Por que ela é importante?</a>
+            </li>
+            <li>
+                <a href="#quatro">Os principais tipos de arquitetura</a>
+            </li>
+            <li>
+                <a href="#cinco">Os principais benefícios que a arquitetura de software.</a>
+            </li>
+        </ul>
+        <br>
+        <hr>
+        <br>
+        <h1>Arquitetura de software</h1>
+
+        <br>
+        <h2 id="um">O que é arquitetura de software?
+            <span class="subir">
+                <a class="top" href="#top">[Subir]</a>
+            </span>
+        </h2>
+        <p>A arquitetura de software de um sistema abrange a forma como suas partes são organizadas, incluindo questões como o comportamento dessa estrutura e quais componentes são responsáveis por realizar um conjunto específico de funções. Resumidamente, é um modelo repetível sob o qual um sistema pode ser desenvolvido.</p>
+        <p>A escolha de uma arquitetura influencia aspectos como a performance, qualidade, facilidade de manutenção e escalabilidade, assim, essa decisão tem grande impacto no sucesso do projeto, principalmente a longo prazo.</p><br>
+
+        <h2 id="dois">O surgimento da arquitetura de software.
+            <span class="subir">
+                <a class="top" href="#top">[Subir]</a>
+            </span>
+        </h2>
+
+        <p>No fim da década de 60, cientistas começaram a pesquisar mais sobre o conceito de arquitetura de software. A ideia era enfatizar a importância de estruturar um sistema antes de seu desenvolvimento. Mas foi apenas nos anos 90 que os estudos desta área evoluíram. Na época, foi escrito o livro Software Architecture: Perspectives on an Emerging Discipline trazendo a perspectiva dos padrões, estilos e modelos arquiteturais como base para desenvolver os softwares.</p>
+        <p>Este salto da história da arquitetura de software foi só o começo. Mais tarde a área evoluiu drasticamente após a criação da primeira norma padrão – mais conhecida como ISO/IEEE 1471-2000 , que significa uma arquitetura de organização fundamental de um sistema.</p>
+        <br>
+
+        <h2 id="tres">Por que ela é importante?
+            <span class="subir">
+                <a class="top" href="#top">[Subir]</a>
+            </span>
+        </h2>
+
+        <p>Ao longo da história da ciência da computação, os softwares passaram a ter uma importância grande. Se, no início, eram simples e com aplicações limitadas, isso mudou radicalmente nas últimas décadas.</p>
+        <p>A partir de funcionalidades domésticas, como gerenciamento de planilhas, os softwares passaram a ter função-chave em operações extremamente complexas, como o controle de funcionamento de uma usina, por exemplo.</p>
+        <p>Mas, para isso acontecer, foi preciso uma evolução semelhante na sua arquitetura. Afinal, não bastava mais combinar algoritmos e dados em um programa, mas elaborar um software baseado na arquitetura, podendo, assim, lidar com sistemas maiores e mais complexos.</p>
+        <p>Conforme um software é desenvolvido, seu tamanho e complexidade crescem, aumentando também o problema de projeto e excedendo as estruturas de dados e algoritmos. Logo, projetar uma arquitetura que facilite a compreensão desses componentes se torna um caminho mais do que necessário.</p>
+        <p>Entre os aspectos que precisam ser observados nesse processo, estão incluídas questões como os protocolos de comunicação, atribuição de funcionalidades a determinadas partes e a estrutura de controle.</p><br>
+
+        <h2 id="quatro">Os principais tipos de arquitetura de software são:
+            <span class="subir">
+                <a class="top" href="#top">[Subir]</a>
+            </span>
+        </h2>
+        <br>
+        <b>Layers (camadas)</b>
+        <p>Os módulos e componentes do software são organizados em camadas de funcionalidades, que podem ser desconstruídas em diferentes serviços. Este padrão é mais usado em programas de e-commerce.</p>
+
+        <br>
+        <b>Client-server (cliente-servidor)</b>
+        <p>Neste modelo arquitetural, o processamento da informação se divide em módulos e processos distintos. Um deles é responsável pela manutenção da informação e o outro pela obtenção de dados. Este tipo de arquitetura de software é bastante usado em aplicativos de bancos e e-mail.</p>
+
+        <br>
+        <b>Model-view-controller (MVC)</b>
+        <p>O padrão MVC separa o projeto do software em três camadas independentes: o modelo (manipulação da lógica de dados), a visão (a interface do usuário) e o controlador (fluxo de aplicação). Esta separação facilita a manutenção do código, que pode ser reutilizado em outros projetos.</p>
+
+        <br>
+        <b>Microservices (microsserviços)</b>
+        <p>O padrão se baseia em múltiplos serviços e componentes para desenvolver uma estrutura modular. É o modelo preferido dos desenvolvedores e arquitetos de software, por permitir escalabilidade e independência dos módulos, que podem usar diferentes linguagens.</p>
+
+        <br>
+        <b>Pipes-and-filters (PF)</b>
+        <p>Baseada em uma arquitetura linear, o padrão Pipe-and-filter usa os componentes computacionais como filtros, que recebem uma entrada, transformam-na a partir de um ou mais algoritmos e geram uma saída para um canal de comunicação. Alguns exemplos deste tipo de arquitetura de software são o Sheel do Linux e os reprodutores de vídeo em diferentes formatos.</p>
+
+        <br>
+        <b>Peer-to-Peer (P2P)</b>
+        <p>Se você já baixou algum arquivo via torrent, se deparou com este padrão arquiteturall. No Peer-to-Peer, todos os pares são clientes e servidores, ou seja, cada computador é um provedor de serviços independente de um servidor central.</p>
+
+        <br>
+        <b>Service-Oriented Architecture (SOA)</b>
+        <p>O SOA facilita a operação das grandes empresas, pois auxilia na criação do processo de encontrar, definir e gerenciar os serviços disponibilizados. O NuBank e a Amazon são exemplos de corporações que utilizam este modelo arquitetural.</p>
+
+        <br>
+        <b>Publish-Subscribe (Pub/Sub)</b>
+        <p>Principal padrão arquitetural de redes sociais como Instagram e do Spotify, o modelo Publish-Subscribe conecta publicadores (publishers) e assinantes (subscribers). Os publishers enviam mensagens aos subscribers, que são notificados sempre que um novo conteúdo é disponibilizado.</p>
+        <br>
+
+        <h2 id="cinco">Os principais benefícios que a arquitetura de software traz ao mundo corporativo:
+            <span class="subir">
+                <a class="top" href="#top">[Subir]</a>
+            </span>
+        </h2>
+        <br>
+    <ol>
+        <ul type="circle">
+            <li>Redução de riscos ao negócio</li>
+            <li>Alinhamento de expectativas entre os diferentes setores da empresa</li>
+            <li>Construção de aplicações flexíveis e de qualidade</li>
+            <li>Integração com diferentes linguagens e sistemas</li>
+            <li>Segurança das aplicações</li>
+    </ol>
+    <br>
+    <h2 id="referencias">Referências</h2>
+    </main>
+</body>
+</html>
