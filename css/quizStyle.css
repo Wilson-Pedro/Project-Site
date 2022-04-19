@@ -81,23 +81,20 @@ div#numeroQuestao {
     font-size: 15pt;
 }
 
-div#voltar > a {
-    margin-top: 400px;
-    text-decoration: none;
+a#voltar {
     color: white;
-    font-size: 13pt;
-}
-
-div#voltar{
-    padding: 10px;
-    border-radius: 3px;
-    margin: auto;
-    font-size: 13pt;
-    background: linear-gradient(to right, rgb(36, 80, 224), rgb(22, 22, 235));
-    width: 40%;
+    text-decoration: none;
     display: none;
 }
 
-div#voltar:hover{
-    background: linear-gradient(to right, rgb(29, 64, 180), rgb(15, 15, 156));
+a#voltar > button {
+    width: 30%;
+    background: linear-gradient(to right, rgb(0, 71, 202), rgb(0, 89, 255));
 }
+
+a#voltar > button:hover {
+    width: 30%;
+    background: linear-gradient(to right, rgb(1, 57, 161), rgb(3, 81, 228));
+}
+
+
