@@ -16,15 +16,6 @@ const q = [5]
 
 // QUESTÕES
 q[0] = {
-    perguntaQuestao: 'Clique em umas das opções para começar',
-    alternativa1: 'começar',
-    alternativa2: 'começar',
-    alternativa3: 'começar',
-    alternativa4: 'começar',
-    correta: 'comear',
-}
-
-q[1] = {
     perguntaQuestao: 'Qual tipo de software se aplica nesta frase?" É um software que trabalha com a execução ordenada de tarefas a fim de coletar dados e fazer a organização de informações, em outras palavras, o processamento de dados."',
 
     alternativa1: "Software de programação",
@@ -38,7 +29,7 @@ q[1] = {
     correta: "Software de programação",
 }
 
-q[2] = {
+q[1] = {
     perguntaQuestao: 'O que é software ?',
 
     alternativa1: "São aqueles que não interferem diretamente no desenvolvimento do sistema propriamente dito",
@@ -47,12 +38,12 @@ q[2] = {
 
     alternativa3: "É uma sequência de instruções escritas para serem interpretadas por um computador",
 
-    alternativa4: "Eu não sei",
+    alternativa4: "Nenhuma das Alternativas",
 
     correta: "É uma sequência de instruções escritas para serem interpretadas por um computador",
 }
 
-q[3] = {
+q[2] = {
     perguntaQuestao: 'Quais são os atributos para um bom software ?',
 
     alternativa1: "Flexibilidade,Usabilidade,Teste e Manutenção",
@@ -66,7 +57,7 @@ q[3] = {
     correta:"Flexibilidade,Usabilidade, Eficiência e Manutenibilidade",
 }
 
-q[4] = {
+q[3] = {
     perguntaQuestao: 'Para que serve um Engenheiro de Software?',
 
     alternativa1: "Serve para criar documentação volumosa e desnecessária que certamente nos atrasará",
@@ -75,12 +66,12 @@ q[4] = {
 
     alternativa3:"Serve para buscar novos métodos para desenvolver e gerenciar sistemas e aplicativos da melhor forma para o software" ,
 
-    alternativa4: "Não faço ideia",
+    alternativa4: "Nenhuma das alternativas está certa.",
 
     correta: "Serve para buscar novos métodos para desenvolver e gerenciar sistemas e aplicativos da melhor forma para o software",
 }
 
-q[5] = {
+q[4] = {
     perguntaQuestao: 'Sommervile apresenta três tipos de testes de usuário. Quais são eles ?',
     alternativa1: "Teste unitário,Teste de componente (ou integração) e Teste de sistema",
 
@@ -93,7 +84,7 @@ q[5] = {
     correta: "Teste alfa , Teste beta e Teste de aceitação",
 }
 
-q[6] = {
+q[5] = {
     perguntaQuestao: 'Quiz Finalizado',
     
 }
@@ -157,7 +148,6 @@ function proximaQuestao(){
     a2.textContent = q[cont].alternativa2
     a3.textContent = q[cont].alternativa3
     a4.textContent = q[cont].alternativa4
-    contagemAcertos.textContent = 'Acertos:' + acertos + '/5'
 
     return
 }
@@ -166,12 +156,13 @@ function proximaQuestao(){
 
 //FUNÇÃO PARA DESABILITAR OS BOTES APÓS O QUIZ
 function disabled_btn(){
-    if (cont == 6){
+    if (cont == 5){
         a1.style.display = 'none'
         a2.style.display = 'none'
         a3.style.display = 'none'
         a4.style.display = 'none'
         voltar.style.display = 'block'
+        contagemAcertos.textContent = 'Acertos:' + acertos + '/5'
     }
     
     return

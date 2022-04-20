@@ -86,8 +86,10 @@ input#data {
     outline: none;
 }
 
-p.cadastrar {
-    text-align: center;
+button.cadastrar {
+    outline: none;
+    border: 0;
+    width: 99%;
     background: linear-gradient(to right, rgb(0, 47, 177), rgb(20, 85, 160));
     padding: 10px;
     border-radius: 5px;
@@ -95,7 +97,7 @@ p.cadastrar {
     font-size: 14pt;
 }
 
-p.cadastrar:hover {
+button.cadastrar:hover {
     background: linear-gradient(to right, rgb(1, 32, 116), rgb(16, 66, 122));
     color: white;
 }
