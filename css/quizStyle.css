@@ -20,7 +20,7 @@ div.container {
     text-align: center;
     background-color: rgb(215, 228, 236);
     height: 80vh;
-    width: 31rem;
+    width: 33rem;
     border-radius: 5px;
     padding: 20px;
     display: none;
@@ -31,9 +31,9 @@ div.container {
 }
 
 button {
-    padding: 13px;
+    padding: 14px;
     width: 98%;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     border: 0;
     cursor: pointer;
     background: rgb(0, 89, 255);
