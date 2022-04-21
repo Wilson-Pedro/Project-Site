@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wamk TI</title>
+    <link rel="shortcut icon" href="../imgs/icone/icone4.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/pagInicial.css">
+    <style>
+
+        h2.siteAP {
+            text-align: center;
+            font-size: 22pt;
+            color: rgb(11, 94, 189);
+        }
+
+        h3 {
+            color: rgb(10, 79, 158);
+            font-size: 21px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        a.links {
+            color: blue;
+            font-style: italic;
+        }
+
+        label {
+            color: rgb(11, 94, 189);
+            font-weight: bold;
+        }
+
+        textarea {
+            display: block;
+            margin: auto;
+            outline: none;
+            margin-top: 10px;
+        }
+
+        input#enviar {
+            display: block;
+            margin: 20px auto;
+            outline: none;
+            border: 0;
+            border-radius: 3px;
+            padding: 10px;
+            width: 70px;
+            background: linear-gradient(to right, rgb(13, 68, 151), rgb(33, 114, 219));
+            color: white;
+            cursor: pointer;
+        }
+
+        input#enviar:hover {
+            background: linear-gradient(to right, rgb(8, 39, 87), rgb(26, 90, 173));
+        }
+
+        input#file {
+            display: block;
+            margin: 20px auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="wamkTI">Wamk TI</h1>
+        <nav>
+            <a href="pagina-inicial.html">Página Inicial</a>
+            <a href="assunstos.html">Assuntos</a>
+            <a class="marcado" href="#">Avaliação</a>
+            <a href="index.html" class="singOut">Sair</a>
+        </nav>
+    </header>
+    <main>
+
+        <br>
+        <h2 class="siteAP">Deixe sua avaliação sobre site.</h2>
+        <br>
+        <h3>Qual o seu nível de safifação com o site?</h3>
+        <br>
+        <br>
+        <label for="">Satisfação: </label> <br>
+        <input type="range" max="10" step="5">
+
+        <br>
+        <h3>O que deve ser melhorado ?</h3>
+        <br>
+
+        <input type="checkbox"> Layout do site <br> 
+        <input type="checkbox"> Erros ortográficos <br>
+        <input type="checkbox"> Ter mais conteúdos
+
+        <br>
+        <h2 class="siteAP">Deixe sua opnião aqui.</h2>
+        <p>Se você tiver alguma a relatar ou reclamação em relação ao site então escreva sua opnião aqui nesta caixa de texto. Você também pode tirar uma print de determinada área do site e enviar para nosso equipe analisarmos e concertar a falha.</p>
+
+        <textarea name="" id="textArea" cols="70vw" rows="12"
+            placeholder="Digite aqi sua opnião..."></textarea>
+        
+        <input id="file" type="file" value="">
+        
+        <input id="enviar" type="submit" value="Enviar">
+    </main>
+</body>
+</html>

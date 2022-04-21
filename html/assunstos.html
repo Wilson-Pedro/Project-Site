@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="../imgs/icone/icone4.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/pagInicial.css">
     <style>
+
         input#pesquisar {
             outline: none;
             padding: 2px;
@@ -34,10 +35,23 @@
         <nav>
             <a href="pagina-inicial.html">Página Inicial</a>
             <a class="marcado" href="assunstos.html">Assuntos</a>
+            <a href="avaliacao.html">Avaliação</a>
             <a href="index.html" class="singOut">Sair</a>
         </nav>
     </header>
     <main>
+        <h3>Qual área você querr aprender?</h3>
+        <br>
+        <select name="" id="" value="">
+            <option value="">Escolha um área</option>
+            <option value="">Tecnologia da Informação</option>
+            <option value="">---</option>
+            <option value="">---</option>
+            <option value="">---</option>
+        </select>
+        <br>
+        <h2>Assuntos</h2>
+        <br>
         <input type="search" name="" id="pesquisar" list="tabelaPesquisa"
             placeholder="Pesquisar assunto...">
         <datalist id="tabelaPesquisa">
@@ -52,13 +66,15 @@
             <option value="Indrodução a Segurança da Informação"></option>
         </datalist>
         <br>
-        <h2>Assuntos</h2>
-        <br>
         <ul>
             <li><a href="assuntos/htmlCSS.html">HTML</a></li>
+
             <li class="azul"><a href="assuntos/nuvem.html">Computação em Nuvem</a></li>
+
             <li id="verde"><a href="assuntos/arquitetura.html">Arquitetura de Software</a></li>
+
             <li class="azul"><a href="assuntos/engenharia.html">Engenharia de Software</a></li>
+
             <li><a href="assuntos/segurancaSI.html">Introdução a Segurança da Informação</a></li>
         </ul>
     </main>
