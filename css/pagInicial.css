@@ -51,6 +51,13 @@ nav > a:hover{
     border-radius: 6px;
 }
 
+h2.siteAP {
+    text-align: center;
+    font-size: 22pt;
+    color: rgb(11, 94, 189);
+    background: linear-gradient(to right,rgba(190, 204, 235, 0.5), rgba(210, 217, 231, 0.5));
+}
+
 .marcado {
     background-color: rgb(76, 112, 145);
     border-radius: 6px;
