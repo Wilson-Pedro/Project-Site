@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url('../imgs/cadastro/fundo3.jpg');
+    background-image: url('../imgs/cadastro/fundo5.jpg');
     background-position: cover;
 }
 
@@ -19,15 +19,15 @@ main{
     justify-content: center;
 }
 
-div#box {
-    background-color: rgba(63, 131, 209, 0.336);
+div#caixaAzul {
+    background-color: rgba(70, 88, 192, 0.5);
     color: black;
     padding: 15px;
     border-radius: 5px;
 }
 
 
-div#box > h2 {
+div#caixaAzul > h2 {
     text-align: center;
     color: black;
     font-size: 20pt;
@@ -46,22 +46,11 @@ input.dados {
     outline: none;
 }
 
-div#box > p {
-    color: black;
-    font-size: 18pt;
-    font-weight: bold;
-}
-
 label {
     font-size: 15pt;
 }
 
-div#sexo {
-    
-    color: black;
-}
-
-p.sex {
+p.generos {
     padding: 5px;
     font-size: 15pt;
     font-weight: bold;
@@ -74,7 +63,7 @@ p.date{
 }
 
 
-div#sexo > input.sex {
+input.generos {
     margin: 8px;
 }
 

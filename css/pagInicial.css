@@ -51,7 +51,7 @@ nav > a:hover{
     border-radius: 6px;
 }
 
-h2.siteAP {
+h2.letraAzul {
     text-align: center;
     font-size: 22pt;
     color: rgb(11, 94, 189);
@@ -63,9 +63,7 @@ h2.siteAP {
     border-radius: 6px;
 }
 
-.singOut{
-    text-align: right;
-}
+
 
 main {
     padding: 20px;

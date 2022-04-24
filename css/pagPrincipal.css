@@ -44,18 +44,12 @@ body {
     min-width: 100vh;
 }
 
-section#fundo1{
+div#fundo1{
     height: 100vh;
     background-image: url('../imgs/index/fundo4.jpg');
     background-size: cover;
     background-position: center center;
     
 }
-/*
-section#fundo2{
-    background: linear-gradient(90deg, rgb(10, 10, 10), rgb(27, 27, 27));
-    height: 100vh;
-    box-shadow: -1px -1px 8px black;
-}
-*/
+
 
