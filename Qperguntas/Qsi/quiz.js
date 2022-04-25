@@ -1,30 +1,22 @@
-const a1 = document.getElementById('A1')
-const a2 = document.getElementById('A2')
-const a3 = document.getElementById('A3')
-const a4 = document.getElementById('A4')
-const pergunta = document.getElementById('pergunta')
-const numQuest = document.getElementById('numeroQuestao')
-const container = document.querySelector('.container')
-const start = document.getElementById('Start')
-const contagemAcertos = document.getElementById('pontosAcertos')
-const voltar = document.getElementById('voltar')
+var a1 = document.getElementById('A1')
+var a2 = document.getElementById('A2')
+var a3 = document.getElementById('A3')
+var a4 = document.getElementById('A4')
+var pergunta = document.getElementById('pergunta')
+var numQuest = document.getElementById('numeroQuestao')
+var container = document.querySelector('.container')
+var start = document.getElementById('Start')
+var contagemAcertos = document.getElementById('pontosAcertos')
+var voltar = document.getElementById('voltar')
 var cont = 0
 var acertos = 0
 var nQuestao = 0
-const q = [5]
+var q = [5]
 
 
 // QUESTÕES
-q[0] = {
-    perguntaQuestao: 'Clique em umas das opções para começar',
-    alternativa1: 'começar',
-    alternativa2: 'começar',
-    alternativa3: 'começar',
-    alternativa4: 'começar',
-    correta: 'comear',
-}
 
-q[1] = {
+q[0] = {
     perguntaQuestao: 'A segurança da informação envolve um conjunto de medidas que são necessárias para garantir:',
 
     alternativa1: 'segurança, estabilidade, confiabilidade',
@@ -38,7 +30,7 @@ q[1] = {
     correta: 'integridade, confiabilidade e disponibilidade',
 }
 
-q[2] = {
+q[1] = {
     perguntaQuestao: '"Garantir que as informções não sejam acessados e utilizados por pessoas não autorizadas"',
     alternativa1: 'disponibilidade',
     alternativa2: 'integridade',
@@ -47,7 +39,7 @@ q[2] = {
     correta: 'confiabilidade',
 }
 
-q[3] = {
+q[2] = {
     perguntaQuestao: 'Garantir que as informações vão está disponíveis a qualquer momento é função da:',
     alternativa1: 'disponibilidade',
     alternativa2: 'integridade',
@@ -56,7 +48,7 @@ q[3] = {
     correta: 'disponibilidade',
 }
 
-q[4] = {
+q[3] = {
     perguntaQuestao: '"Enganar pessoas para que compartilhem informações confidenciais" Essa frase se refere a:',
     alternativa1: 'Cavalo De Troia',
     alternativa2: 'Ransomware',
@@ -65,7 +57,7 @@ q[4] = {
     correta: 'Phishing',
 }
 
-q[5] = {
+q[4] = {
     perguntaQuestao: 'Qual o nome do software que analisa e monitora o tráfego dentro de uma determinada rede ?',
     alternativa1: 'Sniffer',
     alternativa2: 'Malware',
@@ -74,7 +66,7 @@ q[5] = {
     correta: 'Sniffer',
 }
 
-q[6] = {
+q[5] = {
     perguntaQuestao: 'Quiz Finalizado',
     
 }
@@ -138,7 +130,6 @@ function proximaQuestao(){
     a2.textContent = q[cont].alternativa2
     a3.textContent = q[cont].alternativa3
     a4.textContent = q[cont].alternativa4
-    contagemAcertos.textContent = 'Acertos:' + acertos + '/5'
 
     return
 }
@@ -147,12 +138,13 @@ function proximaQuestao(){
 
 //FUNÇÃO PARA DESABILITAR OS BOTES APÓS O QUIZ
 function disabled_btn(){
-    if (cont == 6){
+    if (cont == 5){
         a1.style.display = 'none'
         a2.style.display = 'none'
         a3.style.display = 'none'
         a4.style.display = 'none'
         voltar.style.display = 'block'
+        contagemAcertos.textContent = 'Acertos:' + acertos + '/5'
     }
     
     return

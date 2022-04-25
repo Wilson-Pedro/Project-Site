@@ -1,17 +1,17 @@
-const a1 = document.getElementById('A1')
-const a2 = document.getElementById('A2')
-const a3 = document.getElementById('A3')
-const a4 = document.getElementById('A4')
-const pergunta = document.getElementById('pergunta')
-const numQuest = document.getElementById('numeroQuestao')
-const container = document.querySelector('.container')
-const start = document.getElementById('Start')
-const contagemAcertos = document.getElementById('pontosAcertos')
-const voltar = document.getElementById('voltar')
+var a1 = document.getElementById('A1')
+var a2 = document.getElementById('A2')
+var a3 = document.getElementById('A3')
+var a4 = document.getElementById('A4')
+var pergunta = document.getElementById('pergunta')
+var numQuest = document.getElementById('numeroQuestao')
+var container = document.querySelector('.container')
+var start = document.getElementById('Start')
+var contagemAcertos = document.getElementById('pontosAcertos')
+var voltar = document.getElementById('voltar')
 var cont = 0
 var acertos = 0
 var nQuestao = 0
-const q = [5]
+var q = [5]
 
 
 // QUESTÕES
