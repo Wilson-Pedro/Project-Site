@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div#cabecalho{
+header{
     background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.7));
     padding: 10px;
     border-bottom: 1px solid black;
@@ -44,7 +44,7 @@ body {
     min-width: 100vh;
 }
 
-div#fundo1{
+div#imagem{
     height: 100vh;
     background-image: url('../imgs/index/fundo4.jpg');
     background-size: cover;
