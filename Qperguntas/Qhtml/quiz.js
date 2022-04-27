@@ -118,20 +118,19 @@ function alternativa4() {
 // FUNÇÃO PARA AVANÇAR PARA AS PRÓXIMAS QUESTÕES
 function proximaQuestao(){
     cont += 1
-    disabled_btn()
+    sumirBotao()
     pergunta.textContent = q[cont].perguntaQuestao
     a1.textContent = q[cont].alternativa1
     a2.textContent = q[cont].alternativa2
     a3.textContent = q[cont].alternativa3
     a4.textContent = q[cont].alternativa4
 
-    return
 }
 
 
 
 //FUNÇÃO PARA DESABILITAR OS BOTES APÓS O QUIZ
-function disabled_btn(){
+function sumirBotao(){
     if (cont == 5){
         a1.style.display = 'none'
         a2.style.display = 'none'
@@ -141,5 +140,4 @@ function disabled_btn(){
         contagemAcertos.textContent = 'Acertos:' + acertos + '/5'
     }
     
-    return
 }
