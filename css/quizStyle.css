@@ -66,7 +66,7 @@ div#numeroQuestao {
     text-align: center;
 }
 
-.res {
+#pontosAcertos {
     font-size: 17pt;
     font-weight: bold;
     display: inline-block;
@@ -79,6 +79,10 @@ div#numeroQuestao {
     font-weight: bold;
     margin-top: 2rem;
     font-size: 15pt;
+}
+
+#resultado{
+    display: none;
 }
 
 a#voltar {

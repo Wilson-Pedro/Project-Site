@@ -7,7 +7,8 @@ var numQuest = document.getElementById('numeroQuestao')
 var container = document.querySelector('.container')
 var start = document.getElementById('Start')
 var contagemAcertos = document.getElementById('pontosAcertos')
-const voltar = document.getElementById('voltar')
+var voltar = document.getElementById('voltar')
+var resultado = document.getElementById('resultado')
 var cont = 0
 var acertos = 0
 var nQuestao = 0
@@ -138,6 +139,8 @@ function sumirBotao(){
         a4.style.display = 'none'
         voltar.style.display = 'block'
         contagemAcertos.textContent = 'Acertos:' + acertos + '/5'
+        resultado.style.display = 'block'
+        resultado.textContent = q[0].correta
     }
     
 }
