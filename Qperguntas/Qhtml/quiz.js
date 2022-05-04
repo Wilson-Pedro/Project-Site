@@ -141,6 +141,10 @@ function sumirBotao(){
         contagemAcertos.textContent = 'Acertos:' + acertos + '/5'
         resultado.style.display = 'block'
         resultado.textContent = q[0].correta
+        resultado.textContent += q[1].correta
+        resultado.textContent += q[2].correta
+        resultado.textContent += q[3].correta
+        resultado.textContent += q[5].correta
     }
     
 }
