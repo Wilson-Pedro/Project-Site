@@ -40,7 +40,6 @@ a:hover {
 }
 
 body {
-    background-color: gray;
     min-width: 100vh;
 }
 
@@ -49,7 +48,6 @@ div#imagem{
     background-image: url('../imgs/index/fundo4.jpg');
     background-size: cover;
     background-position: center center;
-    
 }
 
 

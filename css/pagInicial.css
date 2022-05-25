@@ -21,7 +21,7 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30pt;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0.5rem;
     cursor: pointer;
 }
 
@@ -33,6 +33,7 @@ header {
 nav {
     margin-top: 14.8vh;
     padding: 10px;
+    /*Der uma olha no position: relative;*/
     position: relative;
 }
 
@@ -41,7 +42,7 @@ nav > a {
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
-    transition-duration: 0.4s;
+    /*transition-duration: 0.4s;*/
 }
 
 nav > a:hover{

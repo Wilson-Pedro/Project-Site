@@ -68,7 +68,6 @@ q[5] = {
 
 // BOTÃO PARA INICICAR O QUIZ
 function iniciar() {
-    acertos = 0
     container.style.display = 'block'
     pergunta.textContent = q[cont].perguntaQuestao
     a1.textContent = q[cont].alternativa1
