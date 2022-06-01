@@ -3,7 +3,6 @@ var a2 = document.getElementById('A2')
 var a3 = document.getElementById('A3')
 var a4 = document.getElementById('A4')
 var pergunta = document.getElementById('pergunta')
-var numQuest = document.getElementById('numeroQuestao')
 var container = document.querySelector('.container')
 var start = document.getElementById('Start')
 var contagemAcertos = document.getElementById('pontosAcertos')
@@ -105,7 +104,7 @@ function iniciar() {
     a3.textContent = q[cont].alternativa3
     a4.textContent = q[cont].alternativa4
     start.style.display = 'none'
-
+    contagemAcertos.textContent = 'Acertos:' + acertos + '/5'
 }
 
 // FUNÇÕES DAS ALTERNATIVAS
@@ -154,7 +153,7 @@ function proximaQuestao(){
     a2.textContent = q[cont].alternativa2
     a3.textContent = q[cont].alternativa3
     a4.textContent = q[cont].alternativa4
-
+    contagemAcertos.textContent = 'Acertos:' + acertos + '/5'
 }
 
 

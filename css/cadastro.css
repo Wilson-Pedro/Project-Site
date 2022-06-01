@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 *{
+    /*
+    Esse seletor representa todos os elementos serão afetados pelas definições de estilo ali colocadas.
+    */
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,21 +11,25 @@
 }
 
 body {
+    background-image: url("../imgs/login/fundo9.png");
+    /*Imagem de fundo*/
+    background-size: cover;
+    /*cover -> a imagem irá ocupar 100% da tela.*/
     background-image: url('../imgs/cadastro/fundo5.jpg');
     background-size: cover;
-}
-
-main{
     height: 100vh;
     display: flex;
+    /*Torna os elementos flexíveis*/
     align-items: center;
+    /*Alinhamento de itens no centro*/
     justify-content: center;
+    /*alinha os itens do container*/
 }
 
 div#caixaAzul {
     background-color: rgba(70, 88, 192, 0.5);
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 
@@ -48,18 +55,11 @@ label {
     font-size: 15pt;
 }
 
-p.generos {
+p {
     padding: 5px;
     font-size: 15pt;
     font-weight: bold;
 }
-
-p.dataNascimento{
-    padding: 5px;
-    font-size: 15pt;
-    font-weight: bold;
-}
-
 
 input.generos {
     margin: 8px;
@@ -106,6 +106,7 @@ input#limpar {
     cursor: pointer;
 }
 
+/*hover -> usado para selecionar elementos quando você passa o mouse sobre eles.*/
 input#limpar:hover {
     background: linear-gradient(to right, rgb(1, 32, 116), rgb(16, 66, 122));
 }

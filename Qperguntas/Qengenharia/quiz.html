@@ -15,11 +15,14 @@
     <title>Quiz</title>
 </head>
 <body>
-    <section>
+    <div>
+        <!--O container é a "caixa branca" onde está o quiz-->
         <div class="container">
+            <!--As perguntas que aparecem no topo-->
             <h1 id="pergunta">Pergunta</h1>
             <br>
             <div class="alternativas">
+                <!--botão das alternativas-->
                 <button onclick="alternativa1()" id="A1">alternativa1</button> <br>
                 <button onclick="alternativa2()" id="A2">alternativa2</button> <br>
                 <button onclick="alternativa3()" id="A3">alternativa3</button> <br>
@@ -28,16 +31,15 @@
                     
                 </div>
                 <div>
+                    <!--botão de voltar-->
                     <a id="voltar" href="../../html/assuntos/engenharia.html"><button>Voltar</button></a>
                 </div>
 
             </div>
         </div> <br>
-        <div id="numeroQuestao">
-            
-        </div>
+        <!--botão de Start-->
         <button id="Start" onclick="iniciar()"  >Start</button>
-    </section>
+    </div>
     <script src="quiz.js"></script>
 </body>
 </html>

@@ -9,49 +9,48 @@
     <title>Cadastro</title>
 </head>
 <body>
-    <main>
-        <form action="">
-            <div id="caixaAzul">
-                <h2 id="cadastro">Cadastro</h2>
-                <div class="inp">
-                    <input type="text" class="dados" id="nome" placeholder="Nome"> <br>
+    <form action="">
+        <div id="caixaAzul">
+            <h2 id="cadastro">Cadastro</h2>
+            <div>
+                <input type="text" class="dados" id="nome" placeholder="Nome"> <br>
 
-                    <input type="email" class="dados" id="email" placeholder="Email"> <br>
+                <input type="email" class="dados" id="email" placeholder="Email"> <br>
 
-                    <input type="password" class="dados" id="senha" placeholder="Senha"> <br>
+                <input type="password" class="dados" id="senha" placeholder="Senha"> <br>
 
-                    <input type="password" class="dados" id="confirmarSenha" placeholder="Confirmar Senha">
+                <input type="password" class="dados" id="confirmarSenha" placeholder="Confirmar Senha">
 
-                    <div>
-                        <p class="generos" >Sexo:</p>
+                <div>
+                    <p>Sexo:</p>
 
-                        <input type="radio" name="genero" id="mas" class="generos" checked>
-                        <label for="mas">Masculino</label> <br>
+                    <input type="radio" name="genero" id="mas" class="generos" checked>
+                    <label for="mas">Masculino</label> <br>
 
-                        <input type="radio" name="genero" id="fem" class="generos">
-                        <label for="mas">Feminino</label>  <br>
-                        
-                        <input type="radio" name="genero" id="outro" class="generos">
-                        <label for="mas">Outro</label>  <br> <br>
-                    </div>
-            
-                    <p class="dataNascimento">Data De Nascimento: <input type="date" id="data" min="1922-01-01" max="2022-12-31"></p>
-                    <br>
-                    <div>
-                        <a class="btnCadastrar" href="pagina-inicial.html">
-                            <button type="subimt"
-                            onclick="cadastrar()"
-                            class="cadastrar">Cadastrar</button>
-                        </a>
-                    </div>
-                    <div>
-                        <input id="limpar" type="reset" value="Limpar">
-                    </div>
+                    <input type="radio" name="genero" id="fem" class="generos">
+                    <label for="mas">Feminino</label>  <br>
+                    
+                    <input type="radio" name="genero" id="outro" class="generos">
+                    <label for="mas">Outro</label>  <br> <br>
+                </div>
+        
+                <p>Data De Nascimento: <input type="date" id="data" min="1922-01-01" max="2022-12-31"></p>
+                <br>
+                <div>
+                    <a class="btnCadastrar" href="pagina-inicial.html">
+                        <button type="subimt"
+                        onclick="cadastrar()"
+                        class="cadastrar">Cadastrar</button>
+                    </a>
+                </div>
+                <div>
+                    <input id="limpar" type="reset" value="Limpar">
                 </div>
             </div>
-        </form>
-    </main>
+        </div>
+    </form>
     <script>
+        //validar o formulário
         function cadastrar(){     
             var nome = document.getElementById('nome').value
             var email = document.getElementById('email').value

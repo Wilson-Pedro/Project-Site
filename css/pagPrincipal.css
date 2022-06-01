@@ -1,6 +1,9 @@
 @charset "URF-8";
 
 *{
+    /*
+    Esse seletor representa todos os elementos serão afetados pelas definições de estilo ali colocadas.
+    */
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,12 +12,12 @@
 header{
     background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.7));
     padding: 10px;
-    border-bottom: 1px solid black;
 }
 
 h1 {
     color: rgb(30, 83, 228);
-    margin: 10px 0px 0px 10px;
+    margin-top: 1%;
+    margin-left: 1%;
     font-size: 30pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: pointer;
@@ -22,18 +25,19 @@ h1 {
 
 nav {
     text-align: right;
-    padding: 10px;
+    padding: 1%;
 }
 
 a {
-    margin-right: 15px;
+    margin-right: 1.7%;
     text-decoration: none;
     border: 0.1px solid rgb(182, 120, 6);
-    padding: 5px;
+    padding: 0.5%;
     color: rgb(182, 120, 6);
     font-size: 14pt;
 }
 
+/*hover -> usado para selecionar elementos quando você passa o mouse sobre eles.*/
 a:hover {
     border: 0.1px solid rgb(255, 166, 0);
     color: rgb(255, 166, 0);

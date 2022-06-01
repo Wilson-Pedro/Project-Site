@@ -8,6 +8,8 @@
     <title>Login</title>
     <style>
         *{
+            /*
+            Esse seletor representa todos os elementos serão afetados pelas definições de estilo ali colocadas.*/
             margin: 0;
             padding: 0;
             box-sizing:border-box;
@@ -17,10 +19,15 @@
         body{
             height: 100vh;
             display: flex;
+            /*Torna os elementos flexíveis*/
             align-items: center;
+            /*Alinhamento de itens no centro*/
             justify-content: center;
+            /*alinha os itens do container*/
             background-image: url("../imgs/login/fundo9.png");
+            /*Imagem de fundo*/
             background-size: cover;
+            /*cover -> a imagem irá ocupar 100% da tela.*/
         }
 
         form{
@@ -29,6 +36,7 @@
             background-color: rgba(212, 228, 228, 0.123);
             display: flex;
             flex-direction: column;
+            /*flex-direction: column -> Os itens flexíveis serão exibidos verticalmente, como uma coluna */
             padding: 20px 40px;
             border-radius: 6px;
             
@@ -70,7 +78,7 @@
             color: rgb(27, 27, 27);
             text-decoration: none;
         }
-
+        /*hover -> usado para selecionar elementos quando você passa o mouse sobre eles.*/
         button:hover{
             color: white;
             background: linear-gradient(to right,rgb(146, 152, 165),rgb(87, 100, 134))  ;
@@ -79,9 +87,11 @@
     </style>
 </head>
 <body>
-    <form> 
+    <!--Formulário do login-->
+    <form>
+        <!--imagem do boneco branco usando o notebook-->
         <img class="teste1" src="../imgs/login/MicrosoftTeams-image.png" alt="user login"width="150">
-
+        
         <div class=" bem-vindo">
             Bem-vindo
         </div>
