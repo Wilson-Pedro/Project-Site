@@ -7,7 +7,6 @@ var container = document.querySelector('.container')
 var start = document.getElementById('Start')
 var contagemAcertos = document.getElementById('pontosAcertos')
 var voltar = document.getElementById('voltar')
-var resultado = document.getElementById('resultado')
 var cont = 0
 var acertos = 0
 var nQuestao = 0
