@@ -79,7 +79,7 @@ div#numeroQuestao {
 #pontosAcertos {
     font-size: 17pt;
     font-weight: bold;
-    display: inline-block;
+display: inline-block;
     margin: 3rem;
     margin-top:3.6rem;
 }
@@ -96,7 +96,6 @@ div#numeroQuestao {
 }
 
 a#voltar {
-    color: white;
     text-decoration: none;
     display: none;
 }
